@@ -1,0 +1,205 @@
+
+/*STYLE IMAGES */
+.image1 {
+  width: 100vw;
+max-width: 100%;
+  max-height: 150px;
+object-fit: cover;
+  
+}
+ 
+/*OTHER STYLES */
+body {
+   background-color: #F5F7FA;
+  margin: 0;
+   padding: 0;
+ }
+p{
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #006199;
+}
+
+/* STYLE TEXT */
+.content1 {
+   background-color: #e1e5eb;
+  padding-left: 2%;
+  
+}
+ 
+.content2 {
+   background-color: #e1e5eb;
+}
+
+
+/*STYLE NAV BAR */
+
+
+li{
+  display: inline;
+}
+li a{
+  color: #2DCCD3;
+background-color: #0A3C56;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 8px;
+  border-radius: 5px;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li a:hover {
+  background-color: rgba(45, 204, 211, .15);
+  color: #7ceaee;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#0B1F3A ;
+  padding: 10px 20px;
+}
+nav h1{
+  color: #FFD700;
+  margin: 0;
+  font-size: 2.5em;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+/*STYLE FOOTER */
+footer{
+  display: flex;
+  background-color: #0B1F3A;
+  color: #aab4be;
+  text-align: center;
+padding: 6px;
+  justify-content: center;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+main p{
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+main h3{
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2{
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #0B1F3A;
+}
+main{
+  margin: 0;
+   padding: 0;
+}
+main h2{
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.main1{
+  padding-left: 2%;
+}
+.main2 {
+   padding-left: 2%;
+  color: #0B1F3A;
+}
+
+/* SIDE-BY-SIDE LAYOUT FOR LEARN PAGE */
+.learn-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px 2%;
+  align-items: flex-start;
+}
+
+.column {
+  flex: 1;
+  min-width: 0;
+}
+
+.column h3 {
+  margin-top: 0;
+  color: #0B1F3A;
+}
+
+.content2{
+  padding-left: 2%;
+  color: #0A3C56; 
+}
+.content1{
+  color: #0A3C56;
+}
+a{
+  color:  #139da4;
+}
+.factH2{
+  text-align: center;
+}
+.pFacts{
+  background-color: #e1e5eb;
+  border-radius: 10px;
+  padding: 60px;
+  margin: 35px auto;
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: center;
+  max-width: 500px;
+ 
+ 
+}
+/* Edit the facts button*/
+button{
+ 
+  display: block;
+  margin: -90px auto 10px auto;  /* Pulls it upward into the .pFacts box */
+  padding: 10px 20px;
+  background-color: #213973;
+  color: #00c2cc;
+  border: none;
+  border-radius: 8px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 1em;
+}
+
+#fact{
+  background-color: #e1e5eb ;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 20px;
+   border-radius: 10px;
+  padding: 10px;
+  color:#0A3C56 ;
+  
+}
+.factsMain{
+  margin-bottom: 200px;
+}
